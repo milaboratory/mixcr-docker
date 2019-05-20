@@ -1,6 +1,6 @@
 FROM openjdk:8-jre-alpine3.8
 
-ARG version=3.0.6
+ARG version=3.0.7
 
 RUN apk --no-cache add openssl wget bash \
     && mkdir /data
