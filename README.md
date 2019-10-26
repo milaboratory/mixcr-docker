@@ -1,9 +1,24 @@
-# Official MiXCR docker Image
+# Official MiXCR Docker image 
+
+Run as:
+
+```
+docker run -it --rm \
+    -m 4g \
+    -v /path/to/data:/work \
+    milaboratory/mixcr:latest \
+    mixcr align test_R1.fastq.gz test_R2.fastq.gz test.vdjca
+```
+
+## Memory
+
+This image does not require manual memory setting (`-Xmx...` option), if container memory limit is specified it will be automatically detected by JVM. 
 
 ## Tags
 
-...
+See [DockerHub page](https://hub.docker.com/r/milaboratory/mixcr) for available tags.
 
+All images ending with `-imgt` (e.g. `3.0.11-imgt`) contain IMGT reference in the library folder (see license note below).
 
 ## License for IMGT image
 
