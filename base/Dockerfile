@@ -1,6 +1,6 @@
-FROM openjdk:11
+FROM openjdk:11-jre
 
-ARG version="3.0.11"
+ARG version="3.0.12"
 
 RUN mkdir /work
 

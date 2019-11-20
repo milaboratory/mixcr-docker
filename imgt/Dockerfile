@@ -1,8 +1,8 @@
-FROM openjdk:11
+FROM openjdk:11-jre
 
-ARG version="3.0.11"
-ARG imgt_version="201938-4"
-ARG imgt_script_version="5"
+ARG version="3.0.12"
+ARG imgt_version="201946-3"
+ARG imgt_script_version="6"
 
 RUN mkdir /work
 
