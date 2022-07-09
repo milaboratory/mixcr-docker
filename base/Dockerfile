@@ -1,6 +1,6 @@
 FROM adoptopenjdk:11-jre-hotspot
 
-ARG version="3.0.13"
+ARG version
 
 RUN mkdir /work
 

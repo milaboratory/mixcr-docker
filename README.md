@@ -1,4 +1,6 @@
-# Official MiXCR Docker image 
+# This Docker repository is deprecated and will be removed on September 1, 2022. Please see  for the new docker repo.
+
+# [OLD] Official MiXCR Docker image 
 
 Run as:
 

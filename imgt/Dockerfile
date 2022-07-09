@@ -1,8 +1,8 @@
 FROM adoptopenjdk:11-jre-hotspot
 
-ARG version="3.0.13"
-ARG imgt_version="202011-3"
-ARG imgt_script_version="6"
+ARG version
+ARG imgt_version
+ARG imgt_script_version
 
 RUN mkdir /work
 
