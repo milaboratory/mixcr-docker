@@ -1,4 +1,6 @@
-# This Docker repository is deprecated and will be removed on September 1, 2022.
+# DEPRECATED: use official MiXCR Docker Repo
 
-Please see instructions on where to find and how to use new official mixcr docker repo [here](https://github.com/milaboratory/mixcr#docker).
+Please see instructions on where to find and how to use new official mixcr docker repo at
+
+[https://docs.milaboratories.com/mixcr/getting-started/docker/](https://docs.milaboratories.com/mixcr/getting-started/docker/)
 
